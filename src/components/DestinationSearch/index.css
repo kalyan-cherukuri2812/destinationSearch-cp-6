@@ -1,0 +1,49 @@
+.bg-container {
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #000000;
+  font-family: roboto;
+}
+.input-card {
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 280px;
+  margin: 20px;
+}
+.input {
+  background-color: #f1f5f9;
+  border: 0px;
+  outline: none;
+  flex-grow: 1;
+}
+.imag {
+  width: 30px;
+  padding: 4px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card {
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,26 @@
+.img {
+  width: 330px;
+}
+
+.img-name {
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    width: 140px;
+  }
+
+  .img-name {
+    font-size: 15px;
+  }
+  li {
+    width: 150px;
+    margin: 10px;
+  }
+}
